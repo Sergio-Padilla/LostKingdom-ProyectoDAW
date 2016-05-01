@@ -1,0 +1,16 @@
+Te cuento, se me han ocurrido algunas ideas de cosas que podemos hacer:
+
+Gracias a lo que hemos estado haciendo en Brande, he pensado que podríamos hacer en la página de inicio
+una especie de landing page.
+
+Bueno, cosas que hay que ponerse a hacer (yo empezaré, pero no sé cuanto voy a poder hacer):
+
+Inicio de sesión contra base de datos (Ésto no irá en el index, si no en una página aparte).
+
+Con la base de datos probablemente me ponga hoy, cuando la termine la colocaré aquí.
+
+Estructura de páginas. Intentaré pasar a ordenador lo que hice en papel, para tenerlo más claro 
+e ir organizando las partes.
+
+Y de momento... Sin entrar en materia de programación en serio, no se me ocurre qué más hacer.
+Si tienes sugerencias, aquí está esto para comunicarlas xD
