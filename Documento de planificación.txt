@@ -16,3 +16,7 @@ Y de momento... Sin entrar en materia de programación en serio, no se me ocurre 
 Si tienes sugerencias, aquí está esto para comunicarlas xD
 
 Fran nos va a suspender ;___;
+
+COSAS HECHAS:
+
+Base de datos (1ª Versión)
