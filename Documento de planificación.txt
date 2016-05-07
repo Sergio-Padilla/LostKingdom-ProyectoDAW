@@ -15,4 +15,12 @@ e ir organizando las partes.
 Y de momento... Sin entrar en materia de programación en serio, no se me ocurre qué más hacer.
 Si tienes sugerencias, aquí está esto para comunicarlas xD
 
+<<<<<<< HEAD
 Fran nos va a suspender ;___;
+=======
+
+
+COSAS HECHAS:
+
+Ya he creado el dominio y el hosting: Está metido en hostinger y el dominio es: Thelostkingdom.tk
+>>>>>>> refs/remotes/Sergio-Padilla/desarrollo
