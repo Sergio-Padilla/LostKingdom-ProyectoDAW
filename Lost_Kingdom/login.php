@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <?php
-require_once 'Datos.php';
+require_once '../Logica/Datos.php';
 session_start();
 
 ?>
