@@ -13,8 +13,20 @@
  */
 class Datos {
     private $error;
+    public $con; //Elemento de conexión
+    private $urlConexion; //URL de conexxión
+    private $base; //Base de datos asociada
+    private $username; //Usuario de la base de datos
+    private $pass;   //Contraseña de la base de datos
     
     function __construct() {
+        
+        //Se inician los atributos con los datos de la base
+        $this->urlConexion="localhost";
+        $this->base=""; 
+        $this->username="root"; 
+        $this->pass="";
+        
         $this->error = "";
     }
     function getError() {
@@ -27,12 +39,17 @@ class Datos {
 
     
     function abrirConexion(){
-        $con = mysqli_connect("localhost", "root", "", "");
-        return $con;
+        
+        $this->con=null;
+        
+        $con = mysqli_connect($this->urlConexion, $this->user, $this->pass, $this->base);
+        $this->con=$con;
+        
+        return $this->con;
     }
     
     function cerrarConexion(){
-          mysqli_close($con);
+          mysqli_close($this->con);
     }
     
     function comprobarLogin($usuario, $pass){
@@ -57,5 +74,47 @@ class Datos {
         }
         
     }
+    
+    function getCon() {
+        return $this->con;
+    }
+
+    function getUrlConexion() {
+        return $this->urlConexion;
+    }
+
+    function getBase() {
+        return $this->base;
+    }
+
+    function getUsername() {
+        return $this->username;
+    }
+
+    function getPass() {
+        return $this->pass;
+    }
+
+    function setCon($con) {
+        $this->con = $con;
+    }
+
+    function setUrlConexion($urlConexion) {
+        $this->urlConexion = $urlConexion;
+    }
+
+    function setBase($base) {
+        $this->base = $base;
+    }
+
+    function setUsername($username) {
+        $this->username = $username;
+    }
+
+    function setPass($pass) {
+        $this->pass = $pass;
+    }
+
+
  
 }
