@@ -1,0 +1,14 @@
+Cosas que investigar:
+
+-Conexión a base de datos propia una vez subido a internet
+-Que no aparezca .php en el navegador a la hora de estar en una página
+
+Cosas que hacer:
+
+-Páginas de la web
+-Login y registro
+-Aplicaciones de los juegos
+-Ajax para no tener que cargar la página
+-Barra de perfil
+-Personajes y demases cosas gráficas
+-Cosas que se me haya olvidado para apuntar

@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>¡Bienvenido a Lost Kingdom! | Lost Kingdom. Juego online en comunidad</title>
+        <title>Jugar | Lost Kingdom. Juego online en comunidad</title>
     </head>
     <body>
         <div class="cabeceraFlex">
@@ -24,12 +24,17 @@ and open the template in the editor.
             </nav>
         </div>
         <section>
-            <h2>Te damos la bienvenida a...</h2>
             <figure>
                 <img src="" alt="Lost Kingdom" desc="Logo de Lost Kingdom">
             </figure>
-            <form action="controladores/ControlInicio.php">
-                <input name="enter" type="submit" value="Jugar">
+            <h3>¿Listo para tus pruebas, "nombre de usuario"?</h3>
+            <p>Escoge el campo de batalla</p>
+            <form>
+                <p>Palabras mágicas</p>
+                <input type="radio" name="juego" value="palabra"><img src="miniatura1" alt="imagen palabras mágicas">
+                <p>Cartas destinadas</p>
+                <input type="radio" name="juego" value="cartas"><img src="miniatura2" alt="imagen cartas destinadas">
+                <input type="submit" name="jugar" value="Comenzar">
             </form>
         </section>
     </body>
