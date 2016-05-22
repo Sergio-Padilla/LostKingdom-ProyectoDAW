@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <?php
-require_once '../Logica/Datos.php';
+require_once 'Datos.php';
 session_start();
 
 ?>
@@ -20,7 +20,7 @@ session_start();
                 <li>SITIO 4</li>
             </ul>
         </nav>
-        <form name="Login" method="post" action="../Controladores/ControlLogin.php">
+        <form name="Login" method="post" action="ControlLogin.php">
             <hr>
             <div><!--ERRORES -->
                 <?php
